@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SW-HTML_BANKING_FORM</title>
+</head>
+  <body>
+    <h1>Banking Form</h1>
+    <form action="/action_page.php">
+      <em><strong>Applicant Name:</strong></em><br><br>
+      <input type="text" name="firstname" value="First"><br><br>
+
+      <input type="text" name="middle_initial" value="Middle Initial"><br><br>
+
+      <input type="text" name="lastname" value="Last">
+      <br><br><br>
+
+      <strong><em>Applicant Address:</em></strong><br>
+      <input type="text" name="address" value=""><br>
+
+      Occupation:<br>
+      <input type="text" name="occupation" value=""><br>
+
+      Employer:<br>
+      <input type="text" name="employer" value=""><br>
+
+      Employer Address:<br>
+      <input type="text" name="employer address" value=""><br><br>
+      </form>
+
+    <form action="/action_page.php">
+      <strong><em>Requested Loan Amount:</em></strong><br>
+      <input type="text" name="loanAmount" value=""><br><br>
+
+      <strong><em>Type of Loan Requested</em></strong><br>
+        <select name="Type of Loan">
+          <option value="commercial">Commercial</option>
+          <option value="real estate">Real Estate</option>
+          <option value="personal">Personal</option>
+          <option value="mortage">Mortage</option>
+        </select><br><br>
+    </form>
+
+      <strong><em>Requested Loan Amount</em></strong> (choose one)<br>
+
+    <form action="">
+      <input type="radio" name="years" value="five"> 5 Years<br>
+      <input type="radio" name="years" value="fifteen"> 15 Years<br>
+      <input type="radio" name="years" value="thirty"> 30 Years
+    </form><br>
+
+      <strong><em>check all that apply</em></strong><br>
+    <form action="/action_page.php">
+      <input type="checkbox" name="payment" value="yes">I have a down payment<br>
+      <input type="checkbox" name="payment" value="married">Married<br>
+      <input type="checkbox" name="payment" value="co-sign">Loan will be co-signed
+      <br><br>
+    </form>
+
+    <textarea rows="4" cols="50" name="comment" form="usrform">
+      Any additional information here...</textarea><br>
+
+      e-mail:<br>
+      <input type="text" name="email" value=""><br>
+      telephone number:<br>
+      <input type="text" name="telephone" value=""><br>
+      LinkedIn URL:<br>
+      <input type="text" name="LinkedIn" value="">
+  </body>
+</html>
