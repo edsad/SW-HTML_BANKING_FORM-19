@@ -5,7 +5,7 @@
 </head>
   <body>
     <h1>Banking Form</h1>
-    <form action="/action_page.php">
+    <form>
       <em><strong>Applicant Name:</strong></em><br><br>
       <input type="text" name="firstname" value="First"><br><br>
 
@@ -25,9 +25,7 @@
 
       Employer Address:<br>
       <input type="text" name="employer address" value=""><br><br>
-      </form>
 
-    <form action="/action_page.php">
       <strong><em>Requested Loan Amount:</em></strong><br>
       <input type="text" name="loanAmount" value=""><br><br>
 
@@ -38,23 +36,19 @@
           <option value="personal">Personal</option>
           <option value="mortage">Mortage</option>
         </select><br><br>
-    </form>
 
       <strong><em>Requested Loan Amount</em></strong> (choose one)<br>
 
-    <form action="">
       <input type="radio" name="years" value="five"> 5 Years<br>
       <input type="radio" name="years" value="fifteen"> 15 Years<br>
-      <input type="radio" name="years" value="thirty"> 30 Years
-    </form><br>
+      <input type="radio" name="years" value="thirty"> 30 Years<br>
 
       <strong><em>check all that apply</em></strong><br>
-    <form action="/action_page.php">
+
       <input type="checkbox" name="payment" value="yes">I have a down payment<br>
       <input type="checkbox" name="payment" value="married">Married<br>
       <input type="checkbox" name="payment" value="co-sign">Loan will be co-signed
       <br><br>
-    </form>
 
     <textarea rows="4" cols="50" name="comment" form="usrform">
       Any additional information here...</textarea><br>
@@ -65,5 +59,6 @@
       <input type="text" name="telephone" value=""><br>
       LinkedIn URL:<br>
       <input type="text" name="LinkedIn" value="">
+    </form>
   </body>
 </html>
